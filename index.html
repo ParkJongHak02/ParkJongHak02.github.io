@@ -68,4 +68,36 @@
   <script src="/js/chunk-vendors.9696357f.js"></script>
   <script src="/js/app.64c810ca.js"></script>
 </body>
+
+<style>
+  /* 핵심: li를 flex row로 만들어서 아이콘+텍스트를 같은 줄로 묶기 */
+  #profileList li{
+    display: flex !important;
+    align-items: flex-start;     /* 여러 줄일 때 위쪽 기준으로 정렬 */
+    gap: 12px;
+  }
+
+  /* 아이콘 영역 고정폭 + 줄바꿈 방지 */
+  #profileList li > div{
+    width: 28px;
+    flex: 0 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* 텍스트 영역이 flex 안에서 정상적으로 줄바꿈 되도록 */
+  #profileList li > span{
+    flex: 1 1 auto;
+    min-width: 0;                /* 이거 없으면 긴 텍스트가 줄바꿈 못하고 밀려서 깨짐 */
+  }
+
+  /* 긴 URL을 같은 줄에서 줄바꿈 허용 (아이콘 옆에서 계속 이어짐) */
+  #profileList li a{
+    display: inline;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+</style>
+  
 </html>
