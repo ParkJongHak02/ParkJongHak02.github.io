@@ -17,31 +17,37 @@
 **STAY**는 사용자가 숙소를 검색하고 예약할 수 있도록 만든 **숙소 예약 웹사이트**입니다.  
 예약/회원/숙소 정보를 관리하기 위해 **DB 설계 및 CRUD 기능**을 구현했습니다.
 
-**✨ Key Features**
+### ✨ Key Features
 - 🔍 숙소 목록/상세 조회
 - 📅 예약 기능 & 예약 내역 관리
 - 👤 회원가입/로그인
-- 🗄️ DB 기반 CRUD 처리
+- 🗄️ 숙소/회원/예약 데이터 CRUD
 
-**🛠 Tech Stack**
-- 💻 Backend: PHP  
-- 🗃 Database: MySQL (phpMyAdmin)  
-- 🧪 Local Env: XAMPP (Apache + MySQL)
+### 🛠 Tech Stack
+- 💻 **Backend:** PHP
+- 🗃️ **Database:** MySQL
+- 🧩 **DB Tool:** phpMyAdmin
+- 🧪 **Local Server:** XAMPP (Apache + MySQL)
+- 🔧 **ETC:** Git / GitHub
 
 ---
 
-### ✈️ TravelLink | 여행 일정 & 추천 서비스
-**TravelLink**는 여행 정보를 모아보고, 사용자가 여행을 더 쉽게 계획할 수 있도록 돕는 **여행 서비스 프로젝트**입니다.  
-사용자가 원하는 여행 흐름을 고려해 **UI 구성과 사용성 중심 화면 설계**에 집중했습니다.
+## ✈️ TravelLink | 여행 일정 관리 & 추천 서비스
+**TravelLink**는 여행 정보를 한 곳에서 정리하고, 사용자가 여행을 더 쉽게 계획할 수 있도록 돕는 **여행 서비스 프로젝트**입니다.  
+단순 화면 구현을 넘어서, **DB 연동 구조(`db.py`)와 배포 환경(AWS)까지 포함한 전체 흐름**을 경험했습니다.
 
-**✨ Key Features**
+### ✨ Key Features
 - 🗺️ 여행 정보 탐색/정리
-- 🧾 일정 구성(플래너) 형태의 화면 제공
-- ⭐ 사용자 편의 중심 UI/UX 구성
+- 🧾 일정(플래너) 형태의 화면 제공
+- 📦 데이터 저장/조회 기반 기능 구성
+- ☁️ AWS 환경 배포 경험
 
-**🛠 Tech Stack**
-- 🌐 Frontend: (여기에 본인 스택에 맞게 React/Vue 등 추가 가능)
-- 🔧 Tools: Git / GitHub
+### 🛠 Tech Stack
+- 🌐 **Frontend:** (React/Vue 등 본인 스택에 맞게 적기)
+- 🧠 **Backend:** Python (db.py 기반 DB 연동)
+- 🗃️ **Database:** (SQLite/MySQL 등 실제 사용 DB 적기)
+- ☁️ **Deploy:** AWS
+- 🔧 **Tools:** Git / GitHub
 
 ---
 
