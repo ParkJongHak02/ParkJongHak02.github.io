@@ -28,7 +28,6 @@
 - 🗃️ **Database:** MySQL
 - 🧩 **DB Tool:** phpMyAdmin
 - 🧪 **Local Server:** XAMPP (Apache + MySQL)
-- 🔧 **ETC:** Git / GitHub
 
 ---
 
@@ -43,9 +42,9 @@
 - ☁️ AWS 환경 배포 경험
 
 ### 🛠 Tech Stack
-- 🌐 **Frontend:** (React/Vue 등 본인 스택에 맞게 적기)
-- 🧠 **Backend:** Python (db.py 기반 DB 연동)
-- 🗃️ **Database:** (SQLite/MySQL 등 실제 사용 DB 적기)
+- 🌐 **Frontend:** React
+- 🤖 AI: Google Gemini API
+- 🗃️ **Database:** DBeaver
 - ☁️ **Deploy:** AWS
 - 🔧 **Tools:** Git / GitHub
 
